@@ -1,0 +1,380 @@
+[
+  {
+    "id": "pll_aa",
+    "category": "PLL",
+    "name": "Aa Perm",
+    "full_name_en": "Aa Permutation",
+    "full_name_es": "Permutación Aa",
+    "description_en": "Cycles three corners clockwise.",
+    "description_es": "Cicla tres esquinas en sentido horario.",
+    "recognition_en": "Three corners need cycling while edges are solved.",
+    "recognition_es": "Tres esquinas necesitan ciclarse mientras las aristas están resueltas.",
+    "algorithm": {
+      "clean": "x R' U R' D2 R U' R' D2 R2 x'",
+      "grouped": "x (R' U R') D2 (R U' R') D2 R2 x'"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_ab",
+    "category": "PLL",
+    "name": "Ab Perm",
+    "full_name_en": "Ab Permutation",
+    "full_name_es": "Permutación Ab",
+    "description_en": "Cycles three corners counterclockwise.",
+    "description_es": "Cicla tres esquinas en sentido antihorario.",
+    "recognition_en": "Inverse corner cycle of Aa while edges are solved.",
+    "recognition_es": "Ciclo inverso de esquinas de Aa mientras las aristas están resueltas.",
+    "algorithm": {
+      "clean": "x R2 D2 R U R' D2 R U' R x'",
+      "grouped": "x R2 D2 (R U R') D2 (R U' R) x'"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_e",
+    "category": "PLL",
+    "name": "E Perm",
+    "full_name_en": "E Permutation",
+    "full_name_es": "Permutación E",
+    "description_en": "Swaps two pairs of diagonal corners.",
+    "description_es": "Intercambia dos pares de esquinas diagonales.",
+    "recognition_en": "All four corners are permuted diagonally while edges are solved.",
+    "recognition_es": "Las cuatro esquinas están permutadas en diagonal mientras las aristas están resueltas.",
+    "algorithm": {
+      "clean": "y x' R U' R' D R U R' D' R U R' D R U' R' D' x",
+      "grouped": "y x' (R U' R' D) (R U R' D') (R U R' D) (R U' R' D') x"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_f",
+    "category": "PLL",
+    "name": "F Perm",
+    "full_name_en": "F Permutation",
+    "full_name_es": "Permutación F",
+    "description_en": "Swaps two adjacent corners and two adjacent edges.",
+    "description_es": "Intercambia dos esquinas adyacentes y dos aristas adyacentes.",
+    "recognition_en": "A block on one side with adjacent corner and edge swaps.",
+    "recognition_es": "Un bloque en un lado con intercambios adyacentes de esquinas y aristas.",
+    "algorithm": {
+      "clean": "y R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+      "grouped": "y (R' U' F') (R U R' U') R' F R2 (U' R' U') (R U R' U) R"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_ga",
+    "category": "PLL",
+    "name": "Ga Perm",
+    "full_name_en": "Ga Permutation",
+    "full_name_es": "Permutación Ga",
+    "description_en": "Cycles three corners and three edges.",
+    "description_es": "Cicla tres esquinas y tres aristas.",
+    "recognition_en": "One solved block with a G-perm cycle around the last layer.",
+    "recognition_es": "Un bloque resuelto con un ciclo tipo G alrededor de la última capa.",
+    "algorithm": {
+      "clean": "R2 U R' U R' U' R U' R2 D U' R' U R D'",
+      "grouped": "R2 (U R' U R' U' R U') R2 D (U' R' U R) D'"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_gb",
+    "category": "PLL",
+    "name": "Gb Perm",
+    "full_name_en": "Gb Permutation",
+    "full_name_es": "Permutación Gb",
+    "description_en": "Cycles three corners and three edges.",
+    "description_es": "Cicla tres esquinas y tres aristas.",
+    "recognition_en": "G-perm with one solved block and opposite cycle direction from Ga.",
+    "recognition_es": "Permutación G con un bloque resuelto y ciclo opuesto a Ga.",
+    "algorithm": {
+      "clean": "R' U' R U D' R2 U R' U R U' R U' R2 D",
+      "grouped": "(R' U' R U) D' R2 (U R' U R U' R U') R2 D"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_gc",
+    "category": "PLL",
+    "name": "Gc Perm",
+    "full_name_en": "Gc Permutation",
+    "full_name_es": "Permutación Gc",
+    "description_en": "Cycles three corners and three edges.",
+    "description_es": "Cicla tres esquinas y tres aristas.",
+    "recognition_en": "G-perm with a solved block and a shifted edge cycle.",
+    "recognition_es": "Permutación G con bloque resuelto y ciclo de aristas desplazado.",
+    "algorithm": {
+      "clean": "R2 U' R U' R U R' U R2 D' U R U' R' D",
+      "grouped": "R2 (U' R U' R U R' U) R2 D' (U R U' R') D"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_gd",
+    "category": "PLL",
+    "name": "Gd Perm",
+    "full_name_en": "Gd Permutation",
+    "full_name_es": "Permutación Gd",
+    "description_en": "Cycles three corners and three edges.",
+    "description_es": "Cicla tres esquinas y tres aristas.",
+    "recognition_en": "G-perm with one solved block and the mirrored cycle.",
+    "recognition_es": "Permutación G con un bloque resuelto y ciclo espejado.",
+    "algorithm": {
+      "clean": "R U R' U' D R2 U' R U' R' U R' U R2 D'",
+      "grouped": "(R U R' U') D R2 (U' R U' R' U R' U) R2 D'"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_h",
+    "category": "PLL",
+    "name": "H Perm",
+    "full_name_en": "H Permutation",
+    "full_name_es": "Permutación H",
+    "description_en": "Swaps two pairs of opposite edges.",
+    "description_es": "Intercambia dos pares de aristas opuestas.",
+    "recognition_en": "Edges are opposite-swapped and all corners are solved.",
+    "recognition_es": "Las aristas están intercambiadas en oposición y las esquinas están resueltas.",
+    "algorithm": {
+      "clean": "M2 U' M2 U2 M2 U' M2",
+      "grouped": "(M2 U' M2) U2 (M2 U' M2)"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_ja",
+    "category": "PLL",
+    "name": "Ja Perm",
+    "full_name_en": "Ja Permutation",
+    "full_name_es": "Permutación Ja",
+    "description_en": "Swaps one adjacent corner pair and one adjacent edge pair.",
+    "description_es": "Intercambia un par de esquinas adyacentes y un par de aristas adyacentes.",
+    "recognition_en": "A J-perm with a visible solved block after AUF.",
+    "recognition_es": "Una permutación J con un bloque resuelto visible después de AUF.",
+    "algorithm": {
+      "clean": "y R' U L' U2 R U' R' U2 R L",
+      "grouped": "y (R' U L') U2 (R U' R') U2 R L"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_jb",
+    "category": "PLL",
+    "name": "Jb Perm",
+    "full_name_en": "Jb Permutation",
+    "full_name_es": "Permutación Jb",
+    "description_en": "Swaps one adjacent corner pair and one adjacent edge pair.",
+    "description_es": "Intercambia un par de esquinas adyacentes y un par de aristas adyacentes.",
+    "recognition_en": "A common J-perm with a block on the left or back after AUF.",
+    "recognition_es": "Una permutación J común con un bloque a la izquierda o atrás después de AUF.",
+    "algorithm": {
+      "clean": "R U R' F' R U R' U' R' F R2 U' R'",
+      "grouped": "(R U R' F') (R U R' U') R' F R2 U' R'"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_na",
+    "category": "PLL",
+    "name": "Na Perm",
+    "full_name_en": "Na Permutation",
+    "full_name_es": "Permutación Na",
+    "description_en": "Swaps two diagonal corner pairs and two adjacent edge pairs.",
+    "description_es": "Intercambia dos pares de esquinas diagonales y dos pares de aristas adyacentes.",
+    "recognition_en": "No solved block; diagonal corners with adjacent edge swaps.",
+    "recognition_es": "Sin bloque resuelto; esquinas diagonales con intercambios de aristas adyacentes.",
+    "algorithm": {
+      "clean": "R U R' U R U R' F' R U R' U' R' F R2 U' R' U2 R U' R'",
+      "grouped": "(R U R' U) (R U R' F') (R U R' U') R' F R2 U' R' U2 (R U' R')"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_nb",
+    "category": "PLL",
+    "name": "Nb Perm",
+    "full_name_en": "Nb Permutation",
+    "full_name_es": "Permutación Nb",
+    "description_en": "Swaps two diagonal corner pairs and two adjacent edge pairs.",
+    "description_es": "Intercambia dos pares de esquinas diagonales y dos pares de aristas adyacentes.",
+    "recognition_en": "N-perm mirror of Na with no solved block.",
+    "recognition_es": "Permutación N espejo de Na sin bloque resuelto.",
+    "algorithm": {
+      "clean": "R' U R U' R' F' U' F R U R' F R' F' R U' R",
+      "grouped": "(R' U R U' R') (F' U' F) (R U R') (F R' F') (R U' R)"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_ra",
+    "category": "PLL",
+    "name": "Ra Perm",
+    "full_name_en": "Ra Permutation",
+    "full_name_es": "Permutación Ra",
+    "description_en": "Swaps two adjacent corners and two adjacent edges.",
+    "description_es": "Intercambia dos esquinas adyacentes y dos aristas adyacentes.",
+    "recognition_en": "R-perm with headlights and an adjacent edge swap.",
+    "recognition_es": "Permutación R con faros y un intercambio de aristas adyacentes.",
+    "algorithm": {
+      "clean": "y R U' R' U' R U R D R' U' R D' R' U2 R'",
+      "grouped": "y (R U' R' U') (R U R D) (R' U' R D') (R' U2 R')"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_rb",
+    "category": "PLL",
+    "name": "Rb Perm",
+    "full_name_en": "Rb Permutation",
+    "full_name_es": "Permutación Rb",
+    "description_en": "Swaps two adjacent corners and two adjacent edges.",
+    "description_es": "Intercambia dos esquinas adyacentes y dos aristas adyacentes.",
+    "recognition_en": "R-perm mirror with headlights and an adjacent edge swap.",
+    "recognition_es": "Permutación R espejo con faros y un intercambio de aristas adyacentes.",
+    "algorithm": {
+      "clean": "R' U2 R U2 R' F R U R' U' R' F' R2",
+      "grouped": "(R' U2) (R U2) (R' F R) (U R' U' R') F' R2"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_t",
+    "category": "PLL",
+    "name": "T Perm",
+    "full_name_en": "T Permutation",
+    "full_name_es": "Permutación T",
+    "description_en": "Swaps two corners and two edges.",
+    "description_es": "Intercambia dos esquinas y dos aristas.",
+    "recognition_en": "Headlights on one side with a swapped edge pair.",
+    "recognition_es": "Faros en un lado con un par de aristas intercambiadas.",
+    "algorithm": {
+      "clean": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "grouped": "(R U R' U') (R' F R2) (U' R' U') (R U R' F')"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_ua",
+    "category": "PLL",
+    "name": "Ua Perm",
+    "full_name_en": "Ua Permutation",
+    "full_name_es": "Permutación Ua",
+    "description_en": "Cycles three edges clockwise.",
+    "description_es": "Cicla tres aristas en sentido horario.",
+    "recognition_en": "Only three edges need cycling; all corners are solved.",
+    "recognition_es": "Solo tres aristas necesitan ciclarse; todas las esquinas están resueltas.",
+    "algorithm": {
+      "clean": "y2 M2 U M U2 M' U M2",
+      "grouped": "y2 (M2 U M) U2 (M' U M2)"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_ub",
+    "category": "PLL",
+    "name": "Ub Perm",
+    "full_name_en": "Ub Permutation",
+    "full_name_es": "Permutación Ub",
+    "description_en": "Cycles three edges counterclockwise.",
+    "description_es": "Cicla tres aristas en sentido antihorario.",
+    "recognition_en": "Inverse edge cycle of Ua; all corners are solved.",
+    "recognition_es": "Ciclo inverso de aristas de Ua; todas las esquinas están resueltas.",
+    "algorithm": {
+      "clean": "y2 M2 U' M U2 M' U' M2",
+      "grouped": "y2 (M2 U' M) U2 (M' U' M2)"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_v",
+    "category": "PLL",
+    "name": "V Perm",
+    "full_name_en": "V Permutation",
+    "full_name_es": "Permutación V",
+    "description_en": "Swaps diagonal corners and adjacent edges.",
+    "description_es": "Intercambia esquinas diagonales y aristas adyacentes.",
+    "recognition_en": "A diagonal corner swap with a single solved block absent.",
+    "recognition_es": "Un intercambio diagonal de esquinas sin bloque resuelto claro.",
+    "algorithm": {
+      "clean": "R' U R' U' R D' R' D R' U D' R2 U' R2 D R2",
+      "grouped": "(R' U R' U') (R D' R' D) (R' U D') (R2 U' R2) D R2"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_y",
+    "category": "PLL",
+    "name": "Y Perm",
+    "full_name_en": "Y Permutation",
+    "full_name_es": "Permutación Y",
+    "description_en": "Swaps diagonal corners and one edge pair.",
+    "description_es": "Intercambia esquinas diagonales y un par de aristas.",
+    "recognition_en": "Diagonal corner swap with one opposite-looking edge swap.",
+    "recognition_es": "Intercambio diagonal de esquinas con un intercambio de aristas fácil de ver.",
+    "algorithm": {
+      "clean": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+      "grouped": "F R (U' R' U') (R U R' F') (R U R' U') (R' F R F')"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  },
+  {
+    "id": "pll_z",
+    "category": "PLL",
+    "name": "Z Perm",
+    "full_name_en": "Z Permutation",
+    "full_name_es": "Permutación Z",
+    "description_en": "Swaps two pairs of adjacent edges.",
+    "description_es": "Intercambia dos pares de aristas adyacentes.",
+    "recognition_en": "Only edges are swapped in a Z pattern; corners are solved.",
+    "recognition_es": "Solo las aristas están intercambiadas en patrón Z; las esquinas están resueltas.",
+    "algorithm": {
+      "clean": "M2 U M2 U M' U2 M2 U2 M'",
+      "grouped": "(M2 U) (M2 U) (M' U2) M2 (U2 M')"
+    },
+    "image_url": null,
+    "source": "SpeedCubeDB",
+    "source_url": "https://speedcubedb.com/a/3x3/PLL"
+  }
+]
